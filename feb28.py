@@ -7,6 +7,11 @@ q2 = "Create two new variables name and age that hold the name and age of Kabir 
 
 # Kabir
 """Write your answer below here"""
+sentence='my Name is kabir, I am 15 years old'
+sentence.replace('m','M')
+sentence.replace('N','n')
+sentence.replace('k','K')
+'My name is Kabir, I am 15 years old'
 
 # Usman
 """Write your answer below here"""
