@@ -63,3 +63,49 @@ q3: """" Create a variable that returns a list of all school names """
 q4: """ Create a variable that returns a list of all the first hobbies of each person"""
 '''
 >>>>>>> 979e0c6cc1c71c80e77af3ae58db71401e0c573f
+
+Kabir Abubakar
+>>> names = people[0]['name'], people[1]['name'],people[2]['name'],people[3]['name'],people[4]['name']
+>>> names
+('kabir', 'jamil', 'usman', 'Mohd', 'Kasandrah')
+>>> ages=people[0]['age'],people[1]['age'],people[2]['age'],people[3]['age'],people[4]['age']
+>>> ages
+(12, 15, 19, 16, 13)
+>>> schools = people[0]['school']['name'],people[1]['school']['name'],people[2]['school']['name'],people[3]['school']['name'],people[4]['school']['name']
+>>> schools
+('AlQalam', 'bayero', 'Dutse', 'Alqalam', 'FUT')
+>>> states = people[0]['school']['state'],people[1]['school']['state'],people[2]['school']['state'],people[3]['school']['state'],people[4]['school']['state']
+>>> states
+('katsina', 'kano', 'Jigawa', 'Katsina', 'Minna')
+>>> hobbies = people[0]['hobbies'][0],people[1]['hobbies'][0],people[2]['hobbies'][0],people[3]['hobbies'][0],people[4]['hobbies'][0]
+>>> hobbies
+('chess', 'programming', 'working', 'snapchat', 'anime')
+>>> hobbies2 = people[0]['hobbies'][1],people[1]['hobbies'][1],people[2]['hobbies'][1],people[3]['hobbies'][1],people[4]['hobbies'][1]
+>>> hobbies2
+('music', 'drinking tea', 'getting stressed', 'music', 'learning')
+
+
+""" Create a variable that returns a sum of all the ages in the people list """
+>>> sum_ages = sum(ages)
+>>> sum_ages
+75
+>>>
+>>> sums = people[0]['age']+people[1]['age']+people[2]['age']+people[3]['age']+people[4]['age']
+>>> sums
+75
+
+
+>>>
+>>> '" Create a variable that returns a list of all school names '
+>>> schools = people[0]['school']['name'],people[1]['school']['name'],people[2]['school']['name'],people[3]['school']['name'],people[4]['school']['name']
+>>>schools
+('AlQalam', 'bayero', 'Dutse', 'Alqalam', 'FUT')
+
+
+     """ Create a variable that returns a list of all the first hobbies of each person"""
+>>> hobbies = people[0]['hobbies'][0],people[1]['hobbies'][0],people[2]['hobbies'][0],people[3]['hobbies'][0],people[4]['hobbies'][0]
+>>> hobbies
+('chess', 'programming', 'working', 'snapchat', 'anime')
+
+
+
